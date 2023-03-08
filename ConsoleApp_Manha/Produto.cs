@@ -23,9 +23,30 @@ namespace ConsoleApp_Manha
         {
             return Id;
         }
+
+
+        public void setId(int id)
+        {
+            if(id > 0)
+            {
+                Id = id;
+            }
+            
+        }
+
+
         public string getDescricao()
         {
             return Descricao;
+        }
+        public void setDescricao(string descricao)
+        {
+            Descricao = descricao;
+        }
+
+        public void setValor(decimal valor)
+        {
+            Valor = valor;
         }
         public decimal getValor()
         {
